@@ -1,0 +1,185 @@
+@import '../Reset.css';
+@import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200';
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* google Fonts */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+.icons {
+    margin-right: 10px;
+}
+/* mainSection css */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'GmarketSansMedium';
+}
+.headerDiv {
+    width: 100%;
+    height: 8vh;
+    position: absolute;
+    z-index: 3;
+}
+.headerDiv h1 {
+    width: 30%;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 22px 0px 0px 100px;
+    color: white;
+    display: inline-block;
+}
+/* historySection css */
+.comp2 {
+    background-color: white;
+    height: 100vh;
+    margin-bottom: 100px;
+    /* border: 1px solid red; */
+}
+.comp2:after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.historyImgSec {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(197, 163, 163); */
+    float:left;
+}
+.historyImgSec h1 {
+    font-family: 'Impact';
+    font-size: 5em;
+    text-align: center;
+    margin: 60px 30px 10px 0px;
+    color: rgb(0,121,188);
+    font-weight: bold;
+}
+.historyImgSec img {
+    width: 100%;
+}
+.historyTextSec {
+    width: 50%;
+    height: 90%;
+    /* background-color: rgb(159, 159, 206); */
+    display:inline-block;
+    /* clear:both; */
+}
+.historyLineDiv {
+    width: 20px;
+    height: 90%;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgb(0,121,188), rgb(214,214,214));
+    margin-left: 49%;
+}
+.historyLineDiv:after {
+    content: "";
+    width: 20px;
+    height: 15%;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgb(214,214,214), rgb(255,255,255));
+}
+.lineInerDiv {
+    height: 20%;
+}
+.historyLineDiv img{
+    width: 200%;
+    margin-left: -10px;
+    margin-top: 65px;
+}
+.contentDiv {
+    width: 100%;
+    height: 20%;
+    /* background-color:blue; */
+}
+.yearDiv {
+    width: 30%;
+    height: 100%;
+    /* background-color:yellow; */
+    float:left;
+}
+.yearDiv h1 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 60px;
+    /* color: rgb(0,121,188); */
+    font-weight: bold;
+}
+.yearColor0 { color: rgb(0,121,188); }
+.yearColor1 { color: rgb(87,138,188); }
+.yearColor2 { color: rgb(121,157,193); }
+.yearColor3 { color: rgb(156,178,200); }
+.yearColor4 { color: rgb(190,198,205); }
+.yearTextDiv {
+    width: 70%;
+    height: 100%;
+    /* background-color:red; */
+    display: inline-block;
+    clear:both;
+    text-align: left;
+    font-size: 1em;
+    /* font-size: 1px; */
+    line-height: 30px;
+    color: rgb(100,100,100);
+}
+.yearTextDiv ul{
+    margin-top: 20px;
+}
+.moreDown {
+    margin-top: 20px;
+}
+
+/* CooperationSection css */
+.comp3 {
+    background-color: white;
+    height: 110vh;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255), rgb(240,240,240));
+    /* border: 1px solid red; */
+}
+.comp3:after {
+    content: "";
+    display:block;
+    clear: both;
+}
+.compLeftDiv {
+    width: 50%;
+    height: 100%;
+    /* background-color:red; */
+    float: left;
+}
+.compLeftDiv h1 {
+    font-size: 3em;
+    text-align: left;
+    margin: 5em 2em 20px 4em;
+    color: rgb(0,121,188);
+    font-weight: bold;
+}
+.compLeftDiv ol {
+    text-align: left;
+    list-style-type: decimal;
+    margin: 60px 2em 20px 11em;
+    font-size: 1.3em;
+    line-height: 40px;
+    color: rgb(100,100,100);
+}
+.compRightDiv {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+.rightImg {
+    width: 80%;
+    margin-top: 11em;
+}
